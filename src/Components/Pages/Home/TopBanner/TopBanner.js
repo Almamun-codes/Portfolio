@@ -1,5 +1,7 @@
 import React from "react";
 import profile from "../../../../img/profile.png";
+import resume from "../../../../img/Abdullah-al-mamun-resume.pdf";
+import { Link } from "react-router-dom";
 
 const TopBanner = () => {
   return (
@@ -13,12 +15,16 @@ const TopBanner = () => {
                 <h3 className="top-heading">I'm Abdullah Al Mamun</h3>
                 <h4>A Cox's Bazar based MERN stack developer.</h4>
                 <div className="mt-3">
-                  <button className="btn btn-secondary me-3 bg-skin">
-                    Hire Me
-                  </button>
-                  <button className="btn btn-secondary bg-skin">
-                    Get Resume
-                  </button>
+                  <Link to="/contact">
+                    <button className="btn btn-secondary me-3 bg-skin">
+                      Hire Me
+                    </button>
+                  </Link>
+                  <a href={resume} download="Abdullah's-resume">
+                    <button className="btn btn-secondary bg-skin">
+                      Get Resume
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

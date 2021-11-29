@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
@@ -15,9 +16,9 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="col-sm-12 col-lg-6">
-            <div className="mx-3 text-start text-white mt-5">
-              <h4 className="border-bottom border-2">About Me</h4>
-              <p className="text-justify fs-5">
+            <div className="mx-3 text-start text-white">
+              <h4 className="border-bottom border-2 mt-3">About Me</h4>
+              <p className="text-justify">
                 I, Abdullah Al Mamun, is a 21 years old Cox's Bazar based
                 website developer. I used to wonder how these amazing websites
                 built. Later I learned javascript for web design and
@@ -28,7 +29,9 @@ const AboutMe = () => {
                 am very passionate about my work and looking forward to make
                 more webs.
               </p>
-              <button className="btn btn-outline-light">Contact Me</button>
+              <Link to="/contact">
+                <button className="btn btn-outline-light">Contact Me</button>
+              </Link>
             </div>
           </div>
         </div>
