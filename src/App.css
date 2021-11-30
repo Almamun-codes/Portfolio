@@ -9,7 +9,7 @@ h3 {
 }
 
 .text-skin {
-  color: #d67761;
+  color: #db7e69;
 }
 
 .text-justify {
@@ -68,4 +68,44 @@ h3 {
   background-size: cover;
   background-position: center;
   padding: 100px 0;
+}
+
+.nav-sm {
+  display: none;
+}
+
+.contact-items:hover {
+  background-color: wheat;
+  color: #d67761;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+  .nav-sm {
+    display: block;
+    z-index: 2000;
+  }
+
+  /* sidebar code starts */
+
+  .sidebar,
+  .sidebar.collapsed {
+    width: 0;
+    position: fixed;
+    height: 100%;
+    transition: width 0.5s;
+    overflow: hidden;
+  }
+  .sidebar.activated {
+    width: 100px;
+  }
+
+  .side-item:hover {
+    background-color: white;
+    color: #d67761;
+  }
+  /* sidebar code ends */
 }
