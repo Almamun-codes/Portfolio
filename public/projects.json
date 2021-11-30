@@ -1,0 +1,51 @@
+[
+  {
+      "id": "1",
+    "title": "Friends Unity Org",
+    "img": "https://i.ibb.co/V9gZCQv/image.png",
+    "img1": "https://i.ibb.co/1RkBDXk/image.png",
+    "img2": "https://i.ibb.co/4p2kpPH/image.png",
+    "img3": "https://i.ibb.co/tsgS9k4/Untitled-design-2.png",
+    "link": "https://friends-unity-organization.web.app/",
+    "description": "This is a website for a oraganization. A responsive sidebar has added in this website. also firebase password authentication, user profile with image upload system and some othe features addded."
+  },
+  {
+      "id": "2",
+    "title": "Lenshow Sunglass Shop",
+    "img": "https://i.ibb.co/8P7wZLr/image.png",
+    "img1": "https://i.ibb.co/72GhV5s/image.png",
+    "img2": "https://i.ibb.co/10Zf4Gh/image.png",
+    "img3": "https://i.ibb.co/sqDTmfr/image.png",
+    "link": "https://lenshow-online-shop.web.app/",
+    "description": "This website is used for a niche website based on sunglasses. Implemented Dashboard system with different routes for users and admins user can place and cancel order. admin can add, delete or modify products."
+  },
+  {
+      "id": "3",
+    "title": "Speedy delivery Service",
+    "img": "https://i.ibb.co/JdMhG6p/image.png",
+    "img1": "https://i.ibb.co/YbT9JS9/image.png",
+    "img2": "https://i.ibb.co/xFfsSd1/image.png",
+    "img3": "https://i.ibb.co/2hRcxF5/image.png",
+    "link": "https://speedy-delivery-service.web.app/",
+    "description": "This is a website for delivery service. It took me 2 days to build this site. Implemented firebase Authencation. Authority can add, delete or modify a product. User has the ability to order and cancel order"
+  },
+  {
+      "id": "4",
+    "title": "SMILE Hospital",
+    "img": "https://i.ibb.co/RpBzfyT/image.png",
+    "img1": "https://i.ibb.co/TcZd90K/image.png",
+    "img2": "https://i.ibb.co/Rg1mkjt/image.png",
+    "img3": "https://i.ibb.co/64nXsb6/image.png",
+    "link": "https://speedy-delivery-service.web.app/",
+    "description": "Website for a hospital called Smile Hospital. User Authentication with firebase password and google. different routes and user info showed in navigation bar. Details page for services and dorctos."
+  },
+  {
+      "id": "5",
+    "title": "Tour Master",
+    "img": "https://i.ibb.co/y6Sh89M/image.png",
+    "img1": "https://i.ibb.co/2ZSBg4f/image.png",
+    "img2": "https://i.ibb.co/HT5ynwN/image.png",
+    "link": "https://distracted-northcutt-eab708.netlify.app/",
+    "description": "A website to keep track of your travel log. User can see places and can make a wish list. Calculates total cost and other fields. User can modify the log of travels."
+  }
+]

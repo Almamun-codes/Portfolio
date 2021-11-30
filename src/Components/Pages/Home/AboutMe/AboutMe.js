@@ -29,8 +29,8 @@ const AboutMe = () => {
                 am very passionate about my work and looking forward to make
                 more webs.
               </p>
-              <Link to="/contact">
-                <button className="btn btn-outline-light">Contact Me</button>
+              <Link to="/about">
+                <button className="btn btn-outline-light">Learn More</button>
               </Link>
             </div>
           </div>
