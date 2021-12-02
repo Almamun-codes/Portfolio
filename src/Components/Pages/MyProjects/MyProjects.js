@@ -17,7 +17,7 @@ const MyProjects = () => {
           {projects.map((project) => (
             <div className="col-sm-12 col-lg-6 my-3">
               <div className="mx-4 p-2 position-relative bg-light h-100 shadow-lg rounded">
-                <div className="project-image">
+                <div className="">
                   <img
                     src={project.img1}
                     alt={project.title}

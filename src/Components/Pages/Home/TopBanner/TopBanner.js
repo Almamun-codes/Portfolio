@@ -16,12 +16,12 @@ const TopBanner = () => {
                 <h4>A Cox's Bazar based MERN stack developer.</h4>
                 <div className="mt-3">
                   <Link to="/contact">
-                    <button className="btn btn-secondary me-3 bg-skin">
+                    <button className="btn btn-sm btn-secondary me-3 bg-skin">
                       Hire Me
                     </button>
                   </Link>
                   <a href={resume} download="Abdullah's-resume">
-                    <button className="btn btn-secondary bg-skin">
+                    <button className="btn btn-sm btn-secondary bg-skin">
                       Get Resume
                     </button>
                   </a>

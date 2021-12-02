@@ -18,7 +18,7 @@ const Projects = () => {
             <div className="col-sm-12 col-lg-4 my-3">
               <div className="mx-3 p-2 position-relative bg-dark h-100 shadow-lg rounded">
                 <img
-                  src={project.img}
+                  src={project.img1}
                   alt={project.title}
                   className="img-fluid img-thumbnail"
                 />

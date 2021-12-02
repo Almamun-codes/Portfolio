@@ -18,21 +18,21 @@ const Navbar = () => {
     <div>
       <div className="w-100 nav-bar position-fixed bg-dark">
         <div className="nav-bar">
-          <div className="d-flex pt-3 justify-content-end ">
+          <div className="d-flex pt-3 justify-content-center ">
             <Link to="/home">
-              <p className="btn btn-secondary bg-skin mx-2">Home</p>
+              <p className="btn btn-sm btn-secondary bg-skin mx-2">Home</p>
             </Link>
             <Link to="/about">
-              <p className="btn btn-secondary bg-skin mx-2">About</p>
+              <p className="btn btn-sm btn-secondary bg-skin mx-2">About</p>
             </Link>
             <Link to="/contact">
-              <p className="btn btn-secondary bg-skin mx-2">Contact</p>
+              <p className="btn btn-sm btn-secondary bg-skin mx-2">Contact</p>
             </Link>
             <Link to="/blogs">
-              <p className="btn btn-secondary bg-skin mx-2">Blogs</p>
+              <p className="btn btn-sm btn-secondary bg-skin mx-2">Blogs</p>
             </Link>
             <Link to="/projects">
-              <p className="btn btn-secondary bg-skin mx-2 me-3">projects</p>
+              <p className="btn btn-sm btn-secondary bg-skin mx-2">projects</p>
             </Link>
           </div>
         </div>

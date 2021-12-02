@@ -51,9 +51,9 @@ const AboutMe = () => {
           <div className="col-sm-12 col-lg-6 mt-5">
             <div>
               <img
-                src={profile}
-                alt="devices"
-                className="img-fluid bg-skin rounded-circle"
+                src="https://i.pinimg.com/736x/9a/04/59/9a0459b17161ffbef3c406c56cbbc24f.jpg"
+                alt="education"
+                className="img-fluid rounded"
               />
             </div>
           </div>

@@ -2,50 +2,55 @@
   {
       "id": "1",
     "title": "Friends Unity Org",
-    "img": "https://i.ibb.co/V9gZCQv/image.png",
-    "img1": "https://i.ibb.co/1RkBDXk/image.png",
-    "img2": "https://i.ibb.co/4p2kpPH/image.png",
+    "features": ["A responsive sidemenu added which will toggle in small devices.","Users can log in only with their password. No other login system for security.","Logged in users can see the profile menu and able  to modify own profile.","Guest users will see a outstanding UI and Some basic work of the organization.", "Backend site has been added for administration."],
+    "img1": "https://i.ibb.co/D7Qv4XJ/image.png", 
+    "img2": "https://i.ibb.co/qyvTHL6/image.png",
     "img3": "https://i.ibb.co/tsgS9k4/Untitled-design-2.png",
-    "link": "https://friends-unity-organization.web.app/",
-    "description": "This is a website for a oraganization. A responsive sidebar has added in this website. also firebase password authentication, user profile with image upload system and some othe features addded."
+    "links": ["https://friends-unity-organization.web.app/","https://github.com/Almamun-codes/Organization", "https://github.com/Almamun-codes/Organization-server"],
+    "technologies": ["MongoDB", "Express.js", "React", "Node.js", "Bootstrap", "HTML", "CSS"],
+    "description": "This is a website for a oraganization. The organization has some projects to show on the site. They Need a user profile where a users all data will be shown. A next event section for their next event. A sidemenu for small devices as its users will use this site in smartphones."
   },
   {
       "id": "2",
     "title": "Lenshow Sunglass Shop",
-    "img": "https://i.ibb.co/8P7wZLr/image.png",
-    "img1": "https://i.ibb.co/72GhV5s/image.png",
-    "img2": "https://i.ibb.co/10Zf4Gh/image.png",
-    "img3": "https://i.ibb.co/sqDTmfr/image.png",
-    "link": "https://lenshow-online-shop.web.app/",
-    "description": "This website is used for a niche website based on sunglasses. Implemented Dashboard system with different routes for users and admins user can place and cancel order. admin can add, delete or modify products."
+    "features": ["Firebase password and google login system implemented for User Authentication.","Users can explore products and order or cancel his own order.","Different Dashboard system for users and admin","A user can add a review on his choice which will be displayed in homepage.", "Admin can administrate the site for expample managing orders and products."],
+    "img1": "https://i.ibb.co/hy1ccbJ/image.png",
+    "img2": "https://i.ibb.co/pfxZcNW/image.png",
+    "img3": "https://i.ibb.co/pK6jMcG/image.png",
+    "links": ["https://lenshow-online-shop.web.app/","https://github.com/Almamun-codes/lenshow-sunglassShop-webapp-clientsite","https://github.com/Almamun-codes/lenshow-sunglassShop-webapp-serversite"],
+    "technologies": ["MongoDB", "Express.js", "React", "Node.js", "Bootstrap", "HTML", "CSS"],
+    "description": "This website is used for a niche website based on sunglasses. Some products, header banner and user review should be shown on the homepage. Admins and users should see different routes in Dashboard. User Authentication with password should be implented. A user should be able to add a review."
   },
   {
       "id": "3",
     "title": "Speedy delivery Service",
-    "img": "https://i.ibb.co/JdMhG6p/image.png",
-    "img1": "https://i.ibb.co/YbT9JS9/image.png",
-    "img2": "https://i.ibb.co/xFfsSd1/image.png",
-    "img3": "https://i.ibb.co/2hRcxF5/image.png",
-    "link": "https://speedy-delivery-service.web.app/",
-    "description": "This is a website for delivery service. It took me 2 days to build this site. Implemented firebase Authencation. Authority can add, delete or modify a product. User has the ability to order and cancel order"
+    "features": ["Firebase password and google login system implemented for User Authentication.","Guest users can only see products and about page.","Logged in users can order products, see own orders and can cancel them.","Logged in Admin has some other pages like product management and order management where only an admin can modify.", "Backend site has been added for more administration."],
+    "img1": "https://i.ibb.co/5FmwfGM/image.png",
+    "img2": "https://i.ibb.co/JybQQty/image.png",
+    "img3": "https://i.ibb.co/bXJnHb0/image.png",
+    "links": ["https://speedy-delivery-service.web.app/","https://github.com/Almamun-codes/Speedy-delivery-web-app-clientside","https://github.com/Almamun-codes/speedy-web-app-server-site"],
+    "technologies": ["MongoDB", "Express.js", "React", "Node.js", "Bootstrap", "HTML", "CSS"],
+    "description": "This is a website for delivery service. Home page should show packages and other sections. Different packages should show on services page. User should be able to place order with delivery information and has to have the ability to cancel an order. admins should see manage orders and manage service page where they can approve orders and add services."
   },
   {
       "id": "4",
     "title": "SMILE Hospital",
-    "img": "https://i.ibb.co/RpBzfyT/image.png",
-    "img1": "https://i.ibb.co/TcZd90K/image.png",
-    "img2": "https://i.ibb.co/Rg1mkjt/image.png",
-    "img3": "https://i.ibb.co/64nXsb6/image.png",
-    "link": "https://speedy-delivery-service.web.app/",
-    "description": "Website for a hospital called Smile Hospital. User Authentication with firebase password and google. different routes and user info showed in navigation bar. Details page for services and dorctos."
+    "features": ["Firebase google login system implemented for User Authentication.","Guest users can see some basic information about the hospital.","Logged in users can see all the doctors and tests.","User Profie to keep track of users medical history", "Online meeting placement system for visiting doctor in emergency."],
+    "img1": "https://i.ibb.co/pfQBX6g/image.png",
+    "img2": "https://i.ibb.co/VLRjYWv/image.png",
+    "img3": "https://i.ibb.co/jTn7WPy/image.png",
+    "links": ["https://speedy-delivery-service.web.app/","https://github.com/Almamun-codes/smile-hospital-webapp"],
+    "technologies": ["MongoDB", "Express.js", "React", "Node.js", "Bootstrap", "HTML", "CSS"],
+    "description": "Website for a hospital called Smile Hospital. Guest users should see the services and some of the doctors in homepage. User should be able to log in and see all the doctors in a different page. A user should have a profile page to see keep his medical history."
   },
   {
       "id": "5",
     "title": "Tour Master",
-    "img": "https://i.ibb.co/y6Sh89M/image.png",
-    "img1": "https://i.ibb.co/2ZSBg4f/image.png",
-    "img2": "https://i.ibb.co/HT5ynwN/image.png",
-    "link": "https://distracted-northcutt-eab708.netlify.app/",
-    "description": "A website to keep track of your travel log. User can see places and can make a wish list. Calculates total cost and other fields. User can modify the log of travels."
+    "features": ["Firebase password and google login system implemented for User Authentication.","Guest users can see places of Bangladesh to visit.","A logged in user can add a place to wishlist.","User profile shows the data about users and his personal travel log.", "Backend site has been added for admininstration like place management."],
+    "img1": "https://i.ibb.co/ZNjX1FW/image.png",
+    "img2": "https://i.ibb.co/PQcm1CL/image.png",
+    "links": ["https://distracted-northcutt-eab708.netlify.app/","https://github.com/Almamun-codes/TourMaster"],
+    "technologies": ["MongoDB", "Express.js", "React", "Node.js", "Bootstrap", "HTML", "CSS"],
+    "description": "A website to keep track of Users travel log. A logged in user should see his profile page where he can find his travel log. Guest users should see places the owner decides to see. admin should be able to add or delete a place and modify places informations."
   }
 ]
