@@ -1,18 +1,32 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import resume from "../../../img/Abdullah-al-mamun-resume.pdf";
-
-// import emailjs from "emailjs-com";
+import { useNavigate } from "react-router";
 
 const ContactMe = () => {
-  // const handleEmail = (e) => {
-  //   e.preventDefault();
-  //   emailjs.sendForm(
-  //     "service_yap3umg",
-  //     "template_ayy3pdi",
-  //     e.target,
-  //     "user_NVCylLmGcXsfPXaroQ9H7"
-  //   );
-  // };
+  const navigate = useNavigate();
+  const handleEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_tilk9mq",
+        "template_ayy3pdi",
+        e.target,
+        "user_NVCylLmGcXsfPXaroQ9H7"
+      )
+      .then(
+        (res) => {
+          if (res.text === "OK") {
+            alert("Email sent Successfully.");
+            navigate("/home");
+          }
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <div>
       <div className="bg-skin bg-contact text-start py-5">
@@ -26,7 +40,7 @@ const ContactMe = () => {
                 <div className="row g-0">
                   <div className="col-lg-8 col-sm-12 my-2">
                     <div className="border text-black mx-2 rounded border-2">
-                      <form onSubmit="" className="p-3">
+                      <form onSubmit={handleEmail} className="p-3">
                         <label>Name</label>
                         <br />
                         <input
