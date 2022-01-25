@@ -18,7 +18,7 @@ const ProjectDetails = () => {
       <div className="container-fluid pb-3">
         <div className="bg-dark sticky-top">
           <div className="d-flex justify-content-center py-2">
-            <a href="/">
+            <a href="https://abdullah-al-mamun-portfolio.web.app/">
               <div className="back-btn mt-1">
                 <i class="fas fa-arrow-alt-circle-left fs-1"></i>
               </div>
