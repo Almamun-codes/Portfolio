@@ -28,18 +28,30 @@ const ContactMe = () => {
     e.target.reset();
   };
   return (
-    <div>
-      <div className="bg-skin bg-contact text-start py-5">
-        <div className="my-5">
-          <div className="row g-0 justify-content-center">
+    <div id="contact">
+      <div className="bg-skin py-5">
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <p className="fs-4 text-white pt-5 font-cursive">It'd be fun to</p>
+          <span className="fs-1 border-2 gradient-text-1  border-top rounded">
+            Get In Touch
+          </span>
+        </div>
+        <div className="text-start">
+          <div className="row g-0 justify-content-center animate__animated animate__fadeInUp">
             <div className="col-sm-12 col-lg-8">
-              <div className="bg-light m-2 p-3 shadow rounded">
-                <h2 className="text-skin mb-2 border-bottom border-3 border-primary">
+              <div className="bg-dark m-2 p-3 shadow rounded">
+                <h2
+                  data-aos="fade-down"
+                  className=" mb-2 border-bottom border-3 border-primary"
+                >
                   SEND AN E-MAIL
                 </h2>
                 <div className="row g-0">
-                  <div className="col-lg-8 col-sm-12 my-2">
-                    <div className="border text-black mx-2 rounded border-2">
+                  <div
+                    className="col-lg-8 col-sm-12 my-2"
+                    data-aos="fade-right"
+                  >
+                    <div className="border mx-2 rounded border-2">
                       <form onSubmit={handleEmail} className="p-3">
                         <label>Name</label>
                         <br />
@@ -81,7 +93,10 @@ const ContactMe = () => {
                       </form>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-sm-12 rounded my-2 bg-skin">
+                  <div
+                    className="col-lg-4 col-sm-12 rounded my-2 bg-skin"
+                    data-aos="fade-left"
+                  >
                     <div className="p-3">
                       <h3 className="border-bottom border-2 ps-2 my-3">
                         Contact Me
@@ -137,7 +152,6 @@ const ContactMe = () => {
             </div>
           </div>
         </div>
-        <div className=""></div>
       </div>
     </div>
   );

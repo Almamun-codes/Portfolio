@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
+import { Link } from "react-router-dom";
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -13,12 +14,21 @@ const ProjectDetails = () => {
 
   const project = projects.find((item) => item.id === id);
   return (
-    <div className="bg-details py-5">
-      <div className="container-fluid mt-4">
-        <h1 className="py-2 text-white" style={{ font: "Tahoma" }}>
-          {project?.title}
-        </h1>
-        <div className=" mx-3 p-2 bg-about shadow-lg rounded">
+    <div className="bg-details">
+      <div className="container-fluid pb-3">
+        <div className="bg-dark sticky-top">
+          <div className="d-flex justify-content-center py-2">
+            <a href="/">
+              <div className="back-btn mt-1">
+                <i class="fas fa-arrow-alt-circle-left fs-1"></i>
+              </div>
+            </a>
+            <h1 className="gradient-text" style={{ font: "Tahoma" }}>
+              {project?.title}
+            </h1>
+          </div>
+        </div>
+        <div className="my-3 mx-3 p-2 bg-dark shadow-lg rounded">
           <div className="row g-0 p-3">
             <div className="col-sm-12 col-lg-6">
               <div className="row g-0 border m-2 border-3 h-100 rounded">

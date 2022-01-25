@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
+import "animate.css";
 
 const Navbar = () => {
   const [className, setClassName] = useState("");
@@ -16,24 +17,39 @@ const Navbar = () => {
   };
   return (
     <div>
-      <div className="w-100 nav-bar position-fixed bg-dark">
+      <div className="w-100 nav-bar position-fixed bg-black">
         <div className="nav-bar">
           <div className="d-flex pt-3 justify-content-center ">
-            <Link to="/home">
-              <p className="btn btn-sm btn-secondary bg-skin mx-2">Home</p>
-            </Link>
-            <Link to="/about">
-              <p className="btn btn-sm btn-secondary bg-skin mx-2">About</p>
-            </Link>
-            <Link to="/contact">
-              <p className="btn btn-sm btn-secondary bg-skin mx-2">Contact</p>
-            </Link>
-            <Link to="/blogs">
-              <p className="btn btn-sm btn-secondary bg-skin mx-2">Blogs</p>
-            </Link>
-            <Link to="/projects">
-              <p className="btn btn-sm btn-secondary bg-skin mx-2">projects</p>
-            </Link>
+            <a href="#">
+              <p className="btn btn-sm btn-secondary btn-outline-dark text-light mx-2 animate__animated animate__bounceInLeft">
+                Home
+              </p>
+            </a>
+            <a href="#skills">
+              <p className="btn btn-sm btn-secondary btn-outline-dark text-light mx-2 animate__animated animate__bounceInLeft">
+                skills
+              </p>
+            </a>
+            <a href="#projects">
+              <p className="btn btn-sm btn-secondary btn-outline-dark text-light mx-2 animate__animated animate__bounceInRight">
+                projects
+              </p>
+            </a>
+            <a href="#about">
+              <p className="btn btn-sm btn-secondary btn-outline-dark text-light mx-2 animate__animated animate__bounceInLeft">
+                About
+              </p>
+            </a>
+            <a href="#blogs">
+              <p className="btn btn-sm btn-secondary btn-outline-dark text-light mx-2 animate__animated animate__bounceInRight">
+                Blogs
+              </p>
+            </a>
+            <a href="#contact">
+              <p className="btn btn-sm btn-secondary btn-outline-dark text-light mx-2 animate__animated animate__bounceInRight">
+                Contact
+              </p>
+            </a>
           </div>
         </div>
       </div>
@@ -49,21 +65,21 @@ const Navbar = () => {
         </div>
         <div className="position-fixed">
           <div className={`bg-secondary sidebar ${className}`}>
-            <Link to="/home" className=" text-decoration-none text-white">
+            <a href="#home" className=" text-decoration-none text-white">
               <p className="px-4 side-item py-2">Home</p>
-            </Link>
-            <Link to="/about" className=" text-decoration-none text-white">
+            </a>
+            <a href="#about" className=" text-decoration-none text-white">
               <p className="px-4 side-item py-2">about</p>
-            </Link>
-            <Link to="/Projects" className=" text-decoration-none text-white">
+            </a>
+            <a href="#Projects" className=" text-decoration-none text-white">
               <p className="px-4 side-item py-2">Projects</p>
-            </Link>
-            <Link to="/contact" className=" text-decoration-none text-white">
+            </a>
+            <a href="#contact" className=" text-decoration-none text-white">
               <p className="px-4 side-item py-2">Contact</p>
-            </Link>
-            <Link to="/blogs" className=" text-decoration-none text-white">
+            </a>
+            <a href="#blogs" className=" text-decoration-none text-white">
               <p className="px-4 side-item py-2">Blogs</p>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
