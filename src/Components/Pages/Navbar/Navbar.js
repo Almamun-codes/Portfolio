@@ -40,11 +40,11 @@ const Navbar = () => {
                 About
               </p>
             </a>
-            <a href="#blogs">
+            {/* <a href="#blogs">
               <p className="btn btn-sm btn-secondary btn-outline-dark text-light mx-2 animate__animated animate__bounceInRight">
                 Blogs
               </p>
-            </a>
+            </a> */}
             <a href="#contact">
               <p className="btn btn-sm btn-secondary btn-outline-dark text-light mx-2 animate__animated animate__bounceInRight">
                 Contact
